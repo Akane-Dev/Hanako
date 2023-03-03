@@ -28,6 +28,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 client = commands.Bot(command_prefix="$", intents=intents, case_insensitive=True)
 
+#adding this
 client.load_extension("sudo")
 
 HugUrl = "https://64.media.tumblr.com/7568b179761b5faf3ef747e8edfa2498/723bd3eaa6d71f7e-71/s540x810/3ac41c2d549ec6180156da8d5bb55f1be01fbf0d.gif"
